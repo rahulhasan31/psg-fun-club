@@ -31,6 +31,8 @@ for(let i = 0 ; i<selectedPlayer.length; i++ ){
 
 
 function addSelectBtn(element){
+
+    // Alear Msg section///
     if(cardArry.length===5 ){
         alert('you can not buy more then 5 players')
         return ;
@@ -69,9 +71,6 @@ document.getElementById('calculate-btn').addEventListener('click',function(){
     const totalSelectedSting=totalSelectedPlayer.innerText;
     const totalSelected= parseInt(totalSelectedSting)
    
-    
-    // const totalCalculator= totalSelected* perPlayer;
-    // playerField.value=totalCalculator;
 
  const playerExpTotal=document.getElementById('player-exp');
  const playerExpSting=playerExpTotal.innerText;
@@ -112,7 +111,7 @@ document.getElementById('calculate-totale').addEventListener('click',function(){
 
     const total=managerCoachTotal+currentPlyerCost
 
-
+// Total calculated field////
     const inTotalCalculat=document.getElementById('total-feild');
     const inTotalSting=inTotalCalculat.innerText;
     const inTotal=parseInt(inTotalSting);

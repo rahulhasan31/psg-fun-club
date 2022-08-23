@@ -82,7 +82,7 @@ document.getElementById('calculate-btn').addEventListener('click',function(){
 
 
 })
- 
+//  funtion section///
 function getTextElementById(elementId){
     const playerExpTotal=document.getElementById(elementId);
     const playerExpSting=playerExpTotal.innerText;
